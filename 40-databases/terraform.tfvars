@@ -1,1 +1,0 @@
-mysql_root_Password = "RoboShop@1"
