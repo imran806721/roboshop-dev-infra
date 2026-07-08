@@ -14,3 +14,6 @@ variable "domain_name" {
     default = "devops90s.shop"
 }
 
+variable "mysql_root_password" {
+    type = string
+}
