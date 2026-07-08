@@ -26,7 +26,6 @@ resource "aws_iam_role" "mysql" {
 
 resource "aws_iam_policy" "mysql" {
   name        = "${local.common_name}-mysql"
-  default     =  "/"
   description = "Policy to read MySQL SSM paramter to attach to mysql instance"
 
   # Terraform's "jsonencode" function converts a
