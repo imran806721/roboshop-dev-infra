@@ -130,6 +130,8 @@ resource "aws_instance" "mysql" {
   )
 }
 
+
+
 resource "terraform_data" "mysql" {
   triggers_replace = [
     aws_instance.mysql.id
