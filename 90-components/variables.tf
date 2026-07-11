@@ -13,6 +13,7 @@ variable "domain_name" {
 variable "components" {
     default = {
         catalogue = {
+            rule_priority = 10
             app_version = "v3"
         }
     }
